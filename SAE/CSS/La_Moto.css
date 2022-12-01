@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+    word-spacing: 0.1cm;
+}
+
+body{
+    background-image: url(../Image/./circuit-nurburgring-nordscheife.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header a{
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+header a:hover{
+    text-shadow: 0 5px 15px rgba(241, 238, 238, 0.9);
+}
+
+.Presentation{
+    background-color: rgba(245, 245, 245, 0.5);
+    margin: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part1 article{
+    flex-basis: 60%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 1%;
+}
+
+.P1{
+    width: 23%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part2 article{
+    flex-basis: 65%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 2%;
+}
+
+.P2{
+    width: 22%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+}
+
+.part3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part3 article{
+    flex-basis: 52%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.P3{
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
+}
+
+footer{ 
+    background-color: rgba(245, 245, 245, 0.5);
+    font-size: 20px;
+    margin: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a:-webkit-any-link{
+    color: rgb(0 0 0);
+}
+

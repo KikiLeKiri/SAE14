@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.1cm;
+}
+
+body{
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 2%;
+}
+
+.Who{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    margin-right: 10%;
+    margin-left : 10%;
+}
+
+.image_moi{
+    margin: 1%;
+}
+
+.Who article{
+    flex-basis: 60%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.School{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    margin-right: 10%;
+    margin-left : 10%;
+}
+
+.School article{
+    flex-basis: 60%;
+    margin-left:10%;
+    margin-top: 1%;
+}
+
+.marchal{
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 1%;
+}
+
+.after{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.after article{
+    flex-basis: 60%;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+

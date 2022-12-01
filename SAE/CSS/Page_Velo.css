@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+    word-spacing: 0.1cm;
+}
+
+body{
+    background-image: url(../Image/./Test.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.velo{
+    background-color: rgba(245, 245, 245, 0.5);
+    margin: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.velo_route{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.velo_route article{
+    flex-basis: 60%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 3%;    
+}
+
+.image_route{
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+
+.trail{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trail article{
+    flex-basis: 65%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 2%;
+}
+
+.image_trial{
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+}
+
+.enduro article{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.image_enduro{
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
+}
